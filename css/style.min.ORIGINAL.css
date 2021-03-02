@@ -731,7 +731,7 @@ p {
 }
 
 .social {
-    max-width: 300px;
+    max-width: 400px;
     margin: auto auto auto auto;
 }
 
@@ -1008,11 +1008,6 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .mg-sj {
-        margin-top: 10px;
-        margin-bottom: 20px;
-        font-size: 22px;
-    }
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
@@ -1069,20 +1064,10 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .mg-sj {
-        margin-top: 10px;
-        margin-bottom: 20px;
-        font-size: 22px;
-    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
-    }
-    .mg-sj {
-        margin-top: 10px;
-        margin-bottom: 20px;
-        font-size: 22px;
     }
 }

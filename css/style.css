@@ -440,11 +440,22 @@ nav .caret {
     margin-bottom: 20px;
 }
 
+.text-center {
+    position: relative;
+}
+
+.text-align {
+    position: absolute;
+    text-align: center;
+    left:0;
+    right:0;
+    top : 0;
+    bottom : 0;
+}
+
 .mg-sg {
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
     font-size: 22px;
 }
 
@@ -474,6 +485,10 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+}
+
+.mg-center {
+    margin: auto auto auto auto;
 }
 
 .btn {
@@ -731,7 +746,7 @@ p {
 }
 
 .social {
-    max-width: 300px;
+    max-width: 400px;
     margin: auto auto auto auto;
 }
 
@@ -1062,6 +1077,21 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    .mg-sj {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .mg-center {
+        max-width: auto;
+    }
+    .social {
+        max-width: 200px;
+        margin: auto auto auto auto;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1076,13 +1106,3 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-    .mg-sj {
-        margin-top: 10px;
-        margin-bottom: 20px;
-        font-size: 22px;
-    }
-}

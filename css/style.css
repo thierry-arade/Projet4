@@ -477,8 +477,6 @@ nav .caret {
 .mg-sj {
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 280px;
-    margin-right: 280px;
     font-size: 22px;
 }
 
@@ -578,8 +576,8 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {

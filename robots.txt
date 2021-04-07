@@ -1,0 +1,3 @@
+user-agent: *
+allow: /
+sitemap: https://thierry-arade.github.io/Projet4/sitemap.xml
